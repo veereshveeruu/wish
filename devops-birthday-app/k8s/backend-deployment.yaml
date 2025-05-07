@@ -17,6 +17,8 @@ spec:
           image: veeruuuu/backendimg:v1
           ports:
             - containerPort: 8000
+      imagePullSecrets:
+        - name: regcred
 ---
 apiVersion: v1
 kind: Service
