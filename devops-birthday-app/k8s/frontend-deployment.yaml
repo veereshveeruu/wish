@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: <your-frontend-image>
+          image: veeruuuu/frontendimg:v1
           ports:
             - containerPort: 3000
 ---
